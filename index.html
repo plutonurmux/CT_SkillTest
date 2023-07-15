@@ -1,250 +1,270 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<title>CT_SkillTest</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
-body {font-size: 16px;}
-img {margin-bottom: -8px;}
-.mySlides {display: none;}
-</style>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>CT-TestSkillSet</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/styles_1.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Project Name: CT_SkillTest
+  * Updated: May 30 2023 with Bootstrap v5.3.0
+  * Template URL: https://bootstrapmade.com/free-bootstrap-landing-page/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body class="w3-content w3-black" style="max-width:1500px;">
 
-<!-- Header with Slideshow -->
-<header class="w3-display-container w3-center">
-  <button class="w3-button w3-block w3-green w3-hide-large w3-hide-medium" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button>
-  <div class="mySlides w3-animate-opacity">
-    <img class="w3-image" src="/w3images/app.jpg" alt="Image 1" style="min-width:500px" width="1500" height="1000">
-    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge">Take photos with our app</h1>
-        <hr class="w3-opacity">
-        <p>Super simple installment: free of charge</p>
-        <p><button class="w3-button w3-block w3-green w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
-      </div>
-    </div>
-  </div>
-  <div class="mySlides w3-animate-opacity">
-    <img class="w3-image" src="/w3images/app2.jpg" alt="Image 2" style="min-width:500px" width="1500" height="1000">
-    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge w3-text-red"><b>CLICK!</b> Fast and Easy</h1>
-        <hr class="w3-opacity">
-        <p>Choose from thousands of features</p>
-        <p><button class="w3-button w3-block w3-red w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
-      </div>
-    </div>
-  </div>
-  <div class="mySlides w3-animate-opacity">
-    <img class="w3-image" src="/w3images/app4.jpg" alt="Image 3" style="min-width:500px" width="1500" height="1000">
-    <div class="w3-display-left w3-padding w3-hide-small" style="width:35%">
-      <div class="w3-black w3-opacity w3-hover-opacity-off w3-padding-large w3-round-large">
-        <h1 class="w3-xlarge">Smart Design</h1>
-        <hr class="w3-opacity">
-        <p>Customize photos as you go</p>
-        <p><button class="w3-button w3-block w3-indigo w3-round" onclick="document.getElementById('download').style.display='block'">Download <i class="fa fa-android"></i> <i class="fa fa-apple"></i> <i class="fa fa-windows"></i></button></p>
-      </div>
-    </div>
-  </div>
-  <a class="w3-button w3-black w3-display-right w3-margin-right w3-round w3-hide-small w3-hover-light-grey" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
-  <a class="w3-button w3-block w3-black w3-hide-large w3-hide-medium" onclick="plusDivs(1)">Take Tour <i class="fa fa-angle-right"></i></a>
-</header>
+<body>
 
-<!-- The App Section -->
-<div class="w3-padding-64 w3-white">
-  <div class="w3-row-padding">
-    <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>The App</b></h1>
-      <h1 class="w3-xxxlarge w3-text-green"><b>Why buy it?</b></h1>
-      <p><span class="w3-xlarge">Take photos like a pro.</span> You should buy this app because lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-      <button class="w3-button w3-light-grey w3-padding-large w3-section w3-hide-small" onclick="document.getElementById('download').style.display='block'">
-        <i class="fa fa-download"></i> Download Application
-      </button>
-      <p>Available for <i class="fa fa-android w3-xlarge w3-text-green"></i> <i class="fa fa-apple w3-xlarge"></i> <i class="fa fa-windows w3-xlarge w3-text-blue"></i></p>
-    </div>
-    <div class="w3-col l4 m6">
-      <img src="/w3images/img_app.jpg" class="w3-image w3-right w3-hide-small" width="335" height="471">
-      <div class="w3-center w3-hide-large w3-hide-medium">
-        <button class="w3-button w3-block w3-padding-large" onclick="document.getElementById('download').style.display='block'">
-          <i class="fa fa-download"></i> Download Application
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <nav class="navbar navbar-expand-md">
+        <!-- Brand -->
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <img src="./assets/img/Vector Smart Object_1.png" alt="logo">
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <img src="/w3images/img_app.jpg" class="w3-image w3-margin-top" width="335" height="471">
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">01. HISTORY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">02. TEAM</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- End #header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+    </div>
+  </section><!-- #hero -->
+
+  <main id="main">
+
+    <!-- <div class="logo">
+      <h1><a href="index.html">Siimple</a></h1>
+    </div> -->
+
+    <header id="header" class="bg-white fixed-top">
+      <div class="container">
+        <nav class="navbar navbar-expand-md">
+          <!-- Brand -->
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <img src="./assets/img/Vector Smart Object_1.png" alt="logo">
+          <img src="./assets/img/LOSANGELES MOUNTAINS.png" alt="txt">
+
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Navbar links -->
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link link-underline link-ffset" href="#">01. HISTORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">02. TEAM</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ======= About Section ======= -->
+    <section id="second" class="about">
+      <div class="container">
+
+        <div style="display: flex; flex-flow: column;">
+          <div class="col-lg-12 mt-5">
+            <img src="./assets/img/Layer 1.png" alt="_1">
+          </div>
+          <div class="col-lg-12 d-flex justify-content-center">
+            <div class="col-lg-10 mt-3">
+              <p>My focus is on clean, elegant, and efficient codes. I am ambitious and passionate about
+                Frontend development as technology innovation, and I have the drive and energy needed to
+                consistently exceed expectations. Looking to leverage my knowledge and experience into a
+                role as Software Engineer.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="history-div d-flex align-items-center">
+        <div class="container">
+          <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center history-imgs">
+            <div class="slideshow-container d-flex">
+              <div class="mySlide">
+                <div class="numbertext">1 / 4</div>
+                <div class="mx-2">
+                  <img src="./assets/img/man.jpg">
+                </div>
+              </div>
+              <div class="mySlide">
+                <div class="numbertext">2 / 4</div>
+                <div class="mx-2">
+                  <img src="./assets/img/mountain.jpg">
+                </div>
+              </div>
+              <div class="mySlide">
+                <div class="numbertext">3 / 4</div>
+                <div class="mx-2">
+                  <img src="./assets/img/man.jpg">
+                </div>
+              </div>
+              <div class="mySlide">
+                <div class="numbertext">4 / 4</div>
+                <div class="mx-2">
+                  <img src="./assets/img/mountain.jpg">
+                </div>
+              </div>
+<!-- 
+              <a class="prev" onclick="plusSlides(-1)">❮</a>
+              <a class="next" onclick="plusSlides(1)">❯</a> -->
+
+            </div>
+
+            <br>
+
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Contact Us Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div>
+        <div class="climb-div d-flex align-items-center">
+          <div class="container">
+            <div class="d-flex mx-5">
+              <div>
+                <img src="./assets/img/Layer 2.png" alt="_2">
+              </div>
+              <div class="d-flex justify-content-center align-items-center">
+                <p class="mb-0 mx-4">
+                  My focus is on clean, elegant, and efficient codes. I am ambitious and passionate about
+                  Frontend development as technology innovation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mountain-div d-flex align-items-center">
+          <div class="container">
+            <div class="d-flex mx-4">
+              <a href="#" class="text-white mx-2 py-2 mountain">
+                <h3 class="mb-0 hd">MOUNTAIN 1</h3>
+              </a>
+              <a href="#" class="text-white mx-2 py-2 mountain">
+                <h3 class="mb-0 hd">MOUNTAIN 2</h3>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="mx-5">
+            <div class="schedule">
+              <div class="mx-5 pt-3">
+                <h1 style="color: #414f6b; font-weight: 700; letter-spacing: -3px;">SCHEDULE</h1>
+                <div class="d-flex" style="justify-content: space-between;">
+                  <p>25 Nov 2016</p>
+                  <p>Vestibulum viverra</p>
+                </div>
+                <div class="d-flex" style="justify-content: space-between;">
+                  <p>25 Nov 2016</p>
+                  <p>Vestibulum viverra</p>
+                </div>
+                <br />
+                <div class="d-flex" style="justify-content: space-between;">
+                  <p>25 Nov 2016</p>
+                  <p>Vestibulum viverra</p>
+                </div>
+                <br />
+                <div class="d-flex" style="justify-content: space-between;">
+                  <p>25 Nov 2016</p>
+                  <p>Vestibulum viverra</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- End Contact Us Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container footerStyle">
+      <div class="copyright" style="display: inline;">
+        <img src="./assets/img/Vector Smart Object.png" alt="footer-logo">
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/free-bootstrap-landing-page/ -->
+        <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+        <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
       </div>
     </div>
-  </div>
-</div>
+  </footer>
+  <!-- End #footer -->
 
-<!-- Modal -->
-<div id="download" class="w3-modal w3-animate-opacity">
-  <div class="w3-modal-content" style="padding:32px">
-    <div class="w3-container w3-white">
-      <i onclick="document.getElementById('download').style.display='none'" class="fa fa-remove w3-xlarge w3-button w3-transparent w3-right w3-xlarge"></i>
-      <h2 class="w3-wide">DOWNLOAD</h2>
-      <p>Download the app in AppStore, Google Play or Microsoft Store.</p>
-      <i class="fa fa-android w3-large"></i> <i class="fa fa-apple w3-large"></i> <i class="fa fa-windows w3-large"></i>
-      <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
-      <button type="button" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('download').style.display='none'">Fake Download</button>
-    </div>
-  </div>
-</div>
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
 
-<!-- Clarity Section -->
-<div class="w3-padding-64 w3-light-grey">
-  <div class="w3-row-padding">
-    <div class="w3-col l4 m6">
-      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="/w3images/app5.jpg" alt="App" width="335" height="471">
-    </div>
-    <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>Clarity</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>Pixels, who?</b></h1>
-      <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-    </div>
-  </div>
-</div>
-
-<!-- Features Section -->
-<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
-  <h1 class="w3-jumbo"><b>Features</b></h1>
-  <p>This app is just so lorem ipsum.</p>
-
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-bolt w3-text-orange w3-jumbo"></i>
-      <p>Fast</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-heart w3-text-red w3-jumbo"></i>
-      <p>Loved</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-camera w3-text-yellow w3-jumbo"></i>
-      <p>Clarity</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-battery-full w3-text-green w3-jumbo"></i>
-      <p>Power</p>
-    </div>
-  </div>
-
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-diamond w3-text-white w3-jumbo"></i>
-      <p>Sharp</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-cloud w3-text-blue w3-jumbo"></i>
-      <p>Cloud</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-globe w3-text-amber w3-jumbo"></i>
-      <p>Global</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-hdd-o w3-text-cyan w3-jumbo"></i>
-      <p>Storage</p>
-    </div>
-  </div>
-  
-  <div class="w3-row" style="margin-top:64px">
-    <div class="w3-col s3">
-      <i class="fa fa-user w3-text-sand w3-jumbo"></i>
-      <p>Safe</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-shield w3-text-orange w3-jumbo"></i>
-      <p>Stabile</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-wifi w3-text-grey w3-jumbo"></i>
-      <p>Connected</p>
-    </div>
-    <div class="w3-col s3">
-      <i class="fa fa-image w3-text-pink w3-jumbo"></i>
-      <p>HD</p>
-    </div>
-  </div>
-</div>
-
-<!-- Pricing Section -->
-<div class="w3-padding-64 w3-center w3-white">
-  <h1 class="w3-jumbo"><b>Pricing</b></h1>
-  <p class="w3-large">Choose a pricing plan that fits your needs.</p>
-  <div class="w3-row-padding" style="margin-top:64px">
-    <div class="w3-half w3-section">
-      <ul class="w3-ul w3-card w3-hover-shadow">
-        <li class="w3-dark-grey w3-xlarge w3-padding-32">Basic</li>
-        <li class="w3-padding-16"><b>250</b> Photos</li>
-        <li class="w3-padding-16"><b>10</b> Features</li>
-        <li class="w3-padding-16"><b>No</b> Ads</li>
-        <li class="w3-padding-16"><b>Office hours</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-opacity">$ 25</h2>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large" onclick="document.getElementById('download').style.display='block'"><i class="fa fa-download"></i> Download</button>
-        </li>
-      </ul>
-    </div>
-    <div class="w3-half w3-section">
-      <ul class="w3-ul w3-card w3-hover-shadow">
-        <li class="w3-red w3-xlarge w3-padding-32">Premium</li>
-        <li class="w3-padding-16"><b>1000</b> Photos</li>
-        <li class="w3-padding-16"><b>50</b> Features</li>
-        <li class="w3-padding-16"><b>No</b> Ads</li>
-        <li class="w3-padding-16"><b>Endless</b> Support</li>
-        <li class="w3-padding-16">
-          <h2 class="w3-opacity">$ 99</h2>
-        </li>
-        <li class="w3-light-grey w3-padding-24">
-          <button class="w3-button w3-black w3-padding-large" onclick="document.getElementById('download').style.display='block'"> <i class="fa fa-download"></i> Download</button>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <br>
-</div>
-
-<!-- Footer -->
-<footer class="w3-container w3-padding-32 w3-light-grey w3-center w3-xlarge">
-  <div class="w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-    <i class="fa fa-instagram w3-hover-opacity"></i>
-    <i class="fa fa-snapchat w3-hover-opacity"></i>
-    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-    <i class="fa fa-twitter w3-hover-opacity"></i>
-    <i class="fa fa-linkedin w3-hover-opacity"></i>
-  </div>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
-
-<script>
-// Slideshow
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/responsive.js"></script>
 
 </body>
+
 </html>
