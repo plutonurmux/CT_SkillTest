@@ -25,6 +25,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/styles_1.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
 
   <!-- =======================================================
   * Project Name: CT_SkillTest
@@ -38,54 +39,53 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="container">
+  <div>
+    <header id="header">
+      <div class="container">
+  
+        <nav class="navbar navbar-expand-md">
+          <img src="./assets/img/Vector Smart Object_1.png" alt="logo">
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="#">01. HISTORY</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-underline" href="#">02. TEAM</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- End #header -->
+  
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+      <div class="hero-container">
+      </div>
+    </section>
+  </div>
+  
+  <!-- #hero -->
 
-      <nav class="navbar navbar-expand-md">
-        <!-- Brand -->
-        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-        <img src="./assets/img/Vector Smart Object_1.png" alt="logo">
-
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">01. HISTORY</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">02. TEAM</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </header>
-  <!-- End #header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero">
-    <div class="hero-container">
-    </div>
-  </section><!-- #hero -->
-
-  <main id="main">
 
     <!-- <div class="logo">
       <h1><a href="index.html">Siimple</a></h1>
     </div> -->
 
-    <header id="header" class="bg-white fixed-top">
+    <div id="navbar1">
+    <header id="header" class="bg-white">
       <div class="container">
         <nav class="navbar navbar-expand-md">
           <!-- Brand -->
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <img src="./assets/img/Vector Smart Object_1.png" alt="logo">
-          <img src="./assets/img/LOSANGELES MOUNTAINS.png" alt="txt">
+          <img src="./assets/img/Vector Smart Object_2.png" alt="logo">
 
           <!-- Toggler/collapsibe Button -->
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -96,22 +96,24 @@
           <div class="collapse navbar-collapse d-flex justify-content-end" id="collapsibleNavbar">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link link-underline link-ffset" href="#">01. HISTORY</a>
+                <a class="nav-link link-ffset text-underline" href="#">01. HISTORY</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">02. TEAM</a>
+                <a class="nav-link text-underline" href="#">02. TEAM</a>
               </li>
             </ul>
           </div>
         </nav>
       </div>
     </header>
+  </div>
 
     <!-- ======= About Section ======= -->
-    <section id="second" class="about">
+    <section id="second" class="about slider">
+
       <div class="container">
 
-        <div style="display: flex; flex-flow: column;">
+        <div style="display: flex; flex-flow: column;" class="history-content">
           <div class="col-lg-12 mt-5">
             <img src="./assets/img/Layer 1.png" alt="_1">
           </div>
@@ -126,6 +128,12 @@
           </div>
         </div>
       </div>
+      <!-- <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div> -->
       <div class="history-div d-flex align-items-center">
         <div class="container">
           <div class="col-lg-12 col-md-12 d-flex flex-column justify-content-center history-imgs">
@@ -154,7 +162,7 @@
                   <img src="./assets/img/mountain.jpg">
                 </div>
               </div>
-<!-- 
+              <!-- 
               <a class="prev" onclick="plusSlides(-1)">❮</a>
               <a class="next" onclick="plusSlides(1)">❯</a> -->
 
@@ -237,13 +245,12 @@
     <!-- End Contact Us Section -->
 
 
-  </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="container footerStyle">
       <div class="copyright" style="display: inline;">
-        <img src="./assets/img/Vector Smart Object.png" alt="footer-logo">
+        <img src="./assets/img/vector_smart_object_3.png" alt="footer-logo">
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->

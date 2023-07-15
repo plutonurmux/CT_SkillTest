@@ -70,3 +70,19 @@
   }, true)
 
 })()
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar1");
+var sticky = navbar.offsetTop;
+
+console.log("offsetTop:", navbar.offsetTop);
+console.log("onscroll:", window.scrollY);
+
+function myFunction() {
+  if (window.scrollY >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

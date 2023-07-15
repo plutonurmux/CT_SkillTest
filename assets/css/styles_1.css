@@ -16,3 +16,13 @@
     height: 100vh;
     z-index: 9;
 }
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+  }
+  
+  .sticky + #second {
+    padding-top: 60px;
+  }
